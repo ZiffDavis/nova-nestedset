@@ -1,0 +1,29 @@
+{
+    "name": "ziffdavis/nova-nestedset",
+    "description": "A Laravel Nova field for Nestedset.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZiffDavis\\Nova\\Nestedset\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ZiffDavis\\Nova\\Nestedset\\NovaNestedsetServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
