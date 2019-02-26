@@ -53,7 +53,6 @@ export default {
     },
 
     mounted() {
-        console.log(this.field)
         Nova.request().get('/nova-vendor/nestedset/' + this.resourceName + '/' + this.field.belongsToRelationship).then(response => {
             this.options = response.data
         })
